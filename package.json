@@ -1,0 +1,23 @@
+{
+  "name": "rainforest-challenge",
+  "description": "A blank node project with some basic configuration to solve the provided exercise",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "Agustin Demousselle",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": "^20"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
